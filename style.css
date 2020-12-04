@@ -1,0 +1,371 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+/*FLEX STUFF*/
+.displayFlex{
+    display: flex;
+}
+.dir-col{
+    flex-direction: column;
+}
+.j-sp-btw{
+    justify-content: space-between;
+}
+.d-none{
+    display: none;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.flex-evenly{
+    justify-content: space-evenly;
+}
+.j-center{
+    justify-content: center;
+}
+.j-end{
+    justify-content: flex-end;
+}
+
+/* HEADER */
+.headerHeader{
+    background-color: white;
+    border-bottom: solid 1px rgb(211, 211, 211);
+}
+.section1{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://coney.qodeinteractive.com/wp-content/uploads/2016/12/masonry-r-slide-img-1.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.section1 div{
+    color: rgb(70, 70, 70);
+    font-size: 25px;
+    margin-top: 25px;
+}
+.mainLogo{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}
+.navButtons{
+    margin: 0px 20px;
+}
+
+.navBtn{
+    text-decoration: none;
+    padding: 3px;
+    margin: 0px 20px;
+    font-size: 22px;
+    color: black;
+    transition: 0.4s;
+}
+.navBtn:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*MAIN*/
+
+.cardFrame img:hover{
+    filter: grayscale(80%);
+    filter: opacity(0.6);
+    cursor: pointer;
+}
+.cardTitle{
+    word-break: break-word;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.cardTitle:hover{
+    cursor: pointer;
+}
+.cardInfo{
+    display: flex;
+}
+.cardDate{
+    font-size: 14px;
+    font-weight: 340;
+}
+.cardAuthor{
+    font-weight: 600;
+    font-size: 14px;
+    color: blue;
+}
+.cardsContainer{
+    column-count: 4;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.cardText{
+    word-break: break-word;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(104, 104, 104);
+    margin-top: 5px;
+}
+.readMoreBtn{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.bigNr{
+    font-size: 80px;
+
+}
+.cardFrame{
+    display: inline-block;
+    max-width: 330px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+.cardFrame img{
+    width: 100%;
+    transition: 0.2s;
+}
+.cardAuthor:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+/*POST*/
+.postContainerBig{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 50px;
+}
+.postImage{
+    width: 40%;
+    margin-right: 10px;
+
+}
+.postText{
+    word-break: break-word;
+
+}
+/*LOGIN*/
+.loginContainer{
+    margin-top: 60px;
+    padding: 30px;
+}
+.loginBody{
+    background-image: url("https://coney.qodeinteractive.com/wp-content/uploads/2016/12/masonry-r-slide-img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.loginContainer input{
+    padding: 10px;
+    width: 290px;
+    margin-top: 15px;
+}
+.loginContainer div{
+    margin-top: 15px;
+    background-color: rgb(28, 138, 28);
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    padding: 10px;
+    align-self: flex-end;
+}
+.loginContainer div:hover{
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin: 10px 0px;
+}
+.addBtn{
+    display: inline-block;
+    width: 91.5%;
+    margin: 10px 5px;
+    padding-top: 30px;
+    height: 300px;
+    background: url("https://www.flaticon.com/svg/static/icons/svg/32/32339.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color:rgb(12, 12, 12);
+    text-align: center;
+    transition: 0.4s;
+}
+.addBtn:hover{
+    cursor: pointer;
+    background-color: rgba(11, 124, 11, 0.185);
+}
+.loginContainer span{
+    color: red;
+    font-size: 12px;
+}
+/*AUTHOR*/
+#authorName {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(177, 11, 11);
+}
+/*POST*/
+.create input{
+    width: 300px;
+    padding: 10px;
+}
+.create textarea{
+    width: 300px;
+    padding: 10px;
+}
+.create span {
+    color: red;
+    font-size: 12px;
+}
+#postBtn{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 80px;
+    background-color: rgb(75, 113, 184);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#postBtn:hover{
+    cursor: pointer;
+    background-color: rgb(37, 84, 172);
+}
+.sort{
+    width: 100%;
+}
+.sortBtn{
+    padding: 5px 10px;
+    margin: 0px 5px;
+    color: white;
+    border-radius: 10px;
+}
+#sortNew{
+    background-color: gray;
+}
+#sortOld{
+    background-color: green;
+    cursor: pointer;
+}
+.cardButtons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.postBtn{
+    padding: 3px 5px;
+    margin: 2px 3px;
+    background-color: gray;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.createPostSm{
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    background-color: rgb(120, 120, 233);
+}
+.createPostSm:hover{
+    cursor: pointer;
+    background-color: rgb(94, 94, 185);
+}
+
+.searchBar{
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+}
+#search{
+    background-color: transparent;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+#authorWarning{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: -18px;
+
+}
+@media (max-width: 980px){
+    .cardsContainer {
+        column-count: 3;
+        max-width: 900px;
+    }
+    .postContainerBig{
+        max-width: 900px;
+    }
+}
+@media (max-width: 720px){
+    .cardsContainer {
+        column-count: 2;
+        max-width: 650px;
+    }
+    .postContainerBig{
+        max-width: 650px;
+    }
+}
+
+
+
+/*FOOTER*/
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 280px;
+    background-color: rgb(3, 0, 7);
+}
+.socialMedia{
+    width: 1000px;
+    color: white;
+    padding-bottom: 50px;
+    border-bottom: 1px grey solid;
+}
+.madeWithLove{
+    color: grey;
+    margin-top: 50px;
+}
+.footerFix{
+    height: 280px;
+}
+@media (max-width: 1020px){
+    .socialMedia{
+        width: 100%;
+    }
+}
