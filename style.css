@@ -3,6 +3,7 @@ body {
     position: relative;
     min-height: 100vh;
     margin: 0px;
+    background-color: rgb(238, 238, 238);
 }
 
 header {
