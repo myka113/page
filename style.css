@@ -119,7 +119,7 @@ header {
 }
 .cardsContainer{
     column-count: 4;
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 .cardText{
@@ -205,8 +205,8 @@ header {
 }
 .addBtn{
     display: inline-block;
-    width: 91.5%;
-    margin: 10px 5px;
+    width: 80%;
+    margin-top: 10px;
     padding-top: 30px;
     height: 300px;
     background: url("https://www.flaticon.com/svg/static/icons/svg/32/32339.svg");
